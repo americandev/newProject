@@ -51,6 +51,7 @@ public class NewProject3 extends AppCompatActivity implements View.OnClickListen
             case R.id.btnDiv:
                 oper = "/";
                 result = num1 / num2;
+                break;
             case R.id.btnMult:
                 oper = "*";
                 result = num1 * num2;
